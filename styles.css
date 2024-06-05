@@ -1,0 +1,113 @@
+body{
+    padding: 0%;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 1rem;
+    color: rgb(84, 84, 84);
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.div1{
+width: 50%;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+input{
+    border-radius: 3px;
+    border: 1px solid ;
+    height: 1.5rem;
+}
+fieldset{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    gap: 3.5rem;
+}
+fieldset div{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border-radius: 5px;
+    background-color: rgb(207, 178, 13);
+    border: 1px solid ;
+    height: 2rem;
+    width: 8rem;
+    
+    font-weight: bold;
+    color: white;
+}
+.form-fields{
+    padding: 2rem;
+}
+.button-field{
+    position: relative;
+    left: 3rem;
+
+}
+a{
+    color: rgb(207, 178, 13);
+}
+
+#password:invalid{
+     border-color: red;
+}
+
+.logo{
+    display: flex;
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    background: rgba(225, 225, 225, 0.5);
+    
+    justify-content: center;
+    align-items: center;
+    color: rgb(207, 178, 13);
+    font-weight: bold;
+    font-size: 2rem;
+}
+@media (max-width:640px) {
+   
+    body{
+        width: 100vw;
+        overflow: hidden;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .div1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    fieldset{
+        
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+   
+    
+}
